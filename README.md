@@ -19,20 +19,20 @@ This is an e-commerce platform built with Next.js, Redux Toolkit, and Tailwind C
 
  ## Folder Structure
       /pages/
-|____ categories/
-|      |____ index.tsx        # Category listing page
-|____ products/
-|      |____ [categoryId]/
-|      |      |____ index.tsx  # Product listing page
-|      |      |____ [productId]/
-|      |      |      |____ index.tsx  # Product details page
-|____ store/
-|      |____ slices/
-|      |      |____ categorySlice.ts  # Category state slice
-|      |      |____ productSlice.ts   # Product state slice
-|      |____ store.ts                 # Redux store configuration
-|____ styles/
-|      |____ globals.css  # Global Tailwind styles
+   categories/: Contains the category listing page.
+
+   products/: Organizes product-related pages, including product listing and product details, structured by category and product IDs.
+
+   store/: Manages application state using Redux.
+
+   slices/: Includes reducers for category and product states.
+
+   store.ts: Configures the Redux store.
+
+   styles/: Contains global styling for the application.
+  
+    /components/   
+  components/: Contains reusable UI components for category and product display, error handling, loaders, and navigation.
 
 ## Technologies Used
 
